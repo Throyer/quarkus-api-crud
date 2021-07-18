@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres-container
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=common_app_quarkus
+      - TZ=America/Sao_Paulo
+      - PGTZ=America/Sao_Paulo
+    volumes:
+      - ./.volumes/database:/var/lib/postgresql/data

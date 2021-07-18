@@ -52,17 +52,6 @@ public class User implements Serializable {
 
     public User() { }
 
-    public User(Long id) {
-        setId(id);
-    }
-
-    public User(String name, String email, String password, List<Role> roles) {
-        setName(name);
-        setEmail(email);
-        setPassword(password);
-        setRoles(roles);
-    }
-
     public List<Role> getRoles() {
         return roles;
     }

@@ -21,7 +21,7 @@ bin/
 nb-configuration.xml
 
 # Visual Studio Code
-.vscode
+.vscode/settings.json
 .factorypath
 
 # OSX
@@ -37,3 +37,4 @@ nb-configuration.xml
 
 # Local environment
 .env
+.volumes/

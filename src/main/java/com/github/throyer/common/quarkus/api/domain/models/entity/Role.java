@@ -37,21 +37,7 @@ public class Role implements Serializable {
     @Column(nullable = true, unique = true)
     private String description;
 
-    public Role() {
-    }
-
-    public Role(String initials) {
-        this.initials = initials;
-    }
-
-    public Role(Long id) {
-        this.id = id;
-    }
-
-    public Role(Long id, String initials) {
-        this.id = id;
-        this.initials = initials;
-    }
+    public Role() { }
 
     public Long getId() {
         return id;
