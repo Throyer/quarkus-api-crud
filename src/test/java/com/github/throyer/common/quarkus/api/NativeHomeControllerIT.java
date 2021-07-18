@@ -1,4 +1,4 @@
-package org.github.throyer.common.quarkus.api;
+package com.github.throyer.common.quarkus.api;
 
 import io.quarkus.test.junit.NativeImageTest;
 

@@ -1,4 +1,4 @@
-package org.github.throyer.common.quarkus.api.controllers;
+package com.github.throyer.common.quarkus.api.controllers;
 
 import java.util.Map;
 
